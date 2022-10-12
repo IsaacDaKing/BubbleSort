@@ -34,12 +34,5 @@ for _ in 0 ..< newarray.count {
         }
 
     }
-    if swapbreak == 0 {
-        print("Pass: \(pass), Swaps: \(swapbreak)/\( totalswaps), Array: \( newarray)")
-        break
-    }
-    else if swapbreak != 0 {
-        print("Pass: \(pass), Swaps: \(swapbreak)/\( totalswaps), Array: \( newarray)")
-    }
+    print(newarray)
 }
-
